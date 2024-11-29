@@ -28,6 +28,17 @@
 
 ## Project setup
 
+
+# .env file
+
+# MongoDB connection string
+ATLAS_URI=mongodb+srv://<username>:<password>@cluster0.mongodb.net/mydatabase?retryWrites=true&w=majority
+LOCAL_URI=mongodb://localhost:27017/matchapp12  # Local MongoDB connection
+
+# Environment
+NODE_ENV=development  # Can be 'development', 'production', etc.
+
+
 ```bash
 $ npm install
 ```
